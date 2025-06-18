@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.example.LionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.example.LionTest
+com.example.LionTest.getFoodDelegatesToFeline  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.ClassCastException: class com.example.Predator$MockitoMock$XYxKZQa3 cannot be cast to class com.example.Feline (com.example.Predator$MockitoMock$XYxKZQa3 and com.example.Feline are in unnamed module of loader 'app')
+	at com.example.LionTest.getFoodDelegatesToFeline(LionTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.example.CatTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.842 s <<< FAILURE! - in com.example.CatTest
+com.example.CatTest.getFoodShouldCallEatMeat  Time elapsed: 1.832 s  <<< ERROR!
+java.lang.ClassCastException: class com.example.Predator$MockitoMock$XYxKZQa3 cannot be cast to class com.example.Feline (com.example.Predator$MockitoMock$XYxKZQa3 and com.example.Feline are in unnamed module of loader 'app')
+	at com.example.CatTest.getFoodShouldCallEatMeat(CatTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
