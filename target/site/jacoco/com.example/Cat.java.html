@@ -3,18 +3,19 @@
 import java.util.List;
 
 public class Cat {
+
     private final Predator predator;
 
-<span class="fc" id="L8">    public Cat(Predator predator) {</span>
-<span class="fc" id="L9">        this.predator = predator;</span>
-<span class="fc" id="L10">    }</span>
+<span class="fc" id="L9">    public Cat(Predator predator) {</span>
+<span class="fc" id="L10">        this.predator = predator;</span>
+<span class="fc" id="L11">    }</span>
 
     public String getSound() {
-<span class="fc" id="L13">        return &quot;Мяу&quot;;</span>
+<span class="fc" id="L14">        return &quot;Мяу&quot;;</span>
     }
 
     public List&lt;String&gt; getFood() throws Exception {
-<span class="nc" id="L17">        return predator.eatMeat();</span>
+<span class="fc" id="L18">        return predator.eatMeat();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
